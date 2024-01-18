@@ -1,0 +1,65 @@
+{
+    "intents": [
+        {
+            "tag":"greeting",
+            "patterns":[
+                "hello", "hi", "hey", "wake up", "good morning", "good afternoon"
+            ],
+            "responses":[
+                "hello sir", "how may I assist you sir", "how can I help you", "assistant is activated", "good morning sir", "good afternoon sir"
+            ]
+        },
+        {
+            "tag":"bye",
+            "patterns":[
+                "bye", "thanks", "I am going", "talk to you later", "catch you later", "see you soon", "good night"
+            ],
+            "responses":[
+                "goodbye sir", "see you later", "nice to meet you", "thank you sir", "have a nice day", "it was nice seeing you", "good night sir"
+            ]
+        },
+        {
+            "tag":"health",
+            "patterns":[
+                "how are you", "are you fine", "is everything ok", "is there something to talk about", "are you okay", "you want to talk"
+            ],
+            "responses":[
+                "fine", "perfect", "good", "okay sir", "great", "I am doing good"
+            ]
+        },
+        {
+            "tag":"happiness",
+            "patterns":[
+                "i have great news", "I am so happy today", "I did it", "I am so excited"
+            ],
+            "responses":[
+                "good job", "well done", "all the best", "best of luck", "Glad to hear this", "Wish you the best journey ahead", "Thanks for letting me know", "I am so happy"
+            ]
+        },
+        {
+            "tag":"sad",
+            "patterns":["I am sad", "I have bad news"],
+            "responses":["sorry to hear that", "I am sorry"]
+        },
+        {
+            "tag":"lonely",
+            "patterns":["I am tired", "I am feeling low", "I am alone", "I am lost"],
+            "responses":["are you feeling lonely", "are you in pain"]
+        },
+        {
+            "tag":"pain",
+            "patterns":["I am hurt"],
+            "responses":["oh no", "is anything wrong"]
+        },
+        {
+            "tag":"bored",
+            "patterns":["I am bored"],
+            "responses":["I can suggest something interesting."]
+        },
+        {
+            "tag":"missing",
+            "patterns":["I am missing someone"],
+            "responses":["To whom are you missing?"]
+        }
+    ]
+}
